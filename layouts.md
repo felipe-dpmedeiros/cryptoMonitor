@@ -119,7 +119,8 @@ android:layout_height="0dp"
 android:layout_weight="1" />
 ```
 
-*Com isso, temos esse resultado final:*
+Com isso, temos esse resultado final:
+
 ![activity main](imagens/activitymain.png)
 
 
