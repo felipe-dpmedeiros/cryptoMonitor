@@ -96,6 +96,17 @@ else -> "Unknown error" : erro desconhecido
 ```
 Ao final, tem os toasts, que são baloes cinzas na parte inferior na tela.
 
+```
+                    // Mostra uma mensagem de erro ao usuário
+                    Toast.makeText(this@MainActivity, errorMessage, Toast.LENGTH_LONG).show()
+                }
+
+            } catch (e: Exception) {
+                // Se houver uma exceção (ex: sem internet), mostra mensagem de falha
+                Toast.makeText(this@MainActivity, "Falha na chamada: ${e.message}", Toast.LENGTH_LONG).show()
+            }
+```
+
 O erro deve aparecer desta maneira:
 
 ![erro](imagens/erro.webp)
