@@ -121,7 +121,7 @@ android:layout_weight="1" />
 
 Com isso, temos esse resultado final:
 
-![activity main](imagens/activitymain.png)
+![activity main](imagens/activitymain.webp)
 
 
 - [Estrutura do Projeto](estrutura_projeto.md)
