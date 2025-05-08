@@ -1,4 +1,5 @@
 ## Estrutura do projeto
+```
 android_crypto_monitor/
 ├── app/
 │   ├── build.gradle.kts (App-specific build configuration)
@@ -21,7 +22,7 @@ android_crypto_monitor/
 │                   └── activity_main.xml
 ├── build.gradle.kts (Root-level build configuration)
 └── gradle.properties (Project properties)
-
+```
 *   **Model:** Responsável por definir as classes (TickerResponse) que representam os dados recebidos da API.
 *   **View:** Compreende a interface do usuário, representada pela MainActivity.kt e seu layout correspondente (activity_main.xml).
 *   **Tratamento de dados:** Contém as classes que lidam com as requisições à API, implementando o uso do Retrofit e Gson para obter e tratar os dados.
