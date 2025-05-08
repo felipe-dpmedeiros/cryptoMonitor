@@ -97,7 +97,8 @@ else -> "Unknown error" : erro desconhecido
 Ao final, tem os toasts, que são baloes cinzas na parte inferior na tela.
 
 O erro deve aparecer desta maneira:
-![erro](imagens/erro.png)
+
+![erro](imagens/erro.webp)
 
 
 - [Estrutura do Projeto](estrutura_projeto.md)
